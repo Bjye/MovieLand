@@ -1,25 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+// import {useState, useEffect} from "react";
+// import "./App.css";
+import "./register/Style.css"
+import Logic from "./register/Logic";
+import Login from "./register/Login"
+import SignUp from "./register/SignUp";
+import MovieFilterIcon from '@mui/icons-material/MovieFilter';
+import HowToRegIcon from '@mui/icons-material/HowToReg';
+import LoginIcon from '@mui/icons-material/Login';
+import {Route, Routes, Link} from "react-router-dom";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const API_URL = "http://www.omdbapi.com?apikey=4dc9bf8a";
+
+
+
+const App = () => {
+
+  return(
+  <>
+  <nav>
+    <ul>
+        <li className="nav-todo"> <Link to="/SignUp"> <HowToRegIcon from/> SignUp </Link></li>
+        <li className="nav-todo"> <Link to="/moviee"> <MovieFilterIcon/> Movie </Link> </li>
+        <li className="nav-todo"> <Link to="/"> <LoginIcon/> Login </Link> </li>
+
+    </ul>
+  </nav>
+    <Routes>
+     <Route path="/moviee" element={<Logic />}/>
+     <Route path="/Signup" element={<SignUp />} />
+     <Route path="/" element={<Login />} />
+    </Routes>
+    </>
+    )    
 }
 
 export default App;

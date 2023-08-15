@@ -1,0 +1,101 @@
+.Appp {
+    text-align: center;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #212426;
+  
+  }
+  
+  .auth-form-container, .login-form, .register-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  @media screen and (min-width: 600px) {
+    .auth-form-container {
+      padding: 5rem;
+      border: 1px solid white;
+      /* border-radius: 10px; */
+      /* border-radius: 20% 5% 20% 5%/5% 20% 25% 20%;  */
+      /* border-radius: 50% 50% 0 50%/0 50% 50% 50%; */
+      border-radius: 50% 10% 50% 18%/0 50% 0 50%;
+      margin: 0.5rem;
+    }
+  }
+  .neww{
+    padding: 5rem  5rem 2rem;
+  }
+  
+  .r-label{
+    text-align: left;
+    padding: 0.25rem 0;
+  }
+  
+  .r-input {
+    margin: .5rem 0;
+    padding: 1rem;
+    border: none;
+    border-radius: 10px;
+    /* border-radius: 20% 5% 20% 5%/5% 20% 25% 20%; */
+    /* border-radius: 50% 50% 0 50%/0 50% 50% 50%; */
+    font-family: "Architects Daughter", cursive;
+    font-size: 17px;
+    font-weight: bold;
+  
+   
+  }
+  
+  .button-sign{
+    border: none;
+    background-color: white;
+    padding: 15px;
+    width: 80px;
+    /* margin-left: 0px; */
+    margin-top:20px;
+    cursor: pointer;
+    color: #7439db;
+    font-family: "Architects Daughter", cursive;
+    font-weight: bold;
+    border-radius: 20% 5% 20% 5%/5% 20% 25% 20%;
+    /* border-radius: 50% 50% 0 50%/0 50% 50% 50%; */
+  
+  }
+  
+  .link-btn{
+    width: fit-content;
+    background: none;
+    color: white;
+    text-decoration: none;
+    font-family: "Architects Daughter", cursive;
+  }
+
+  nav {
+    background-color: #333;
+    font-size: 18px;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 10px;
+  }
+  
+  nav li {
+    list-style: none;
+  }
+  
+  nav li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    /* border-radius: 5px; */
+    transition: background-color 0.3s ease;
+  }
+  
+  nav li a:hover {
+    background-color: #555;
+  }
