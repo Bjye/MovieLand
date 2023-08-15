@@ -9,7 +9,7 @@ import HowToRegIcon from '@mui/icons-material/HowToReg';
 import LoginIcon from '@mui/icons-material/Login';
 import {Route, Routes, Link} from "react-router-dom";
 
-const API_URL = "http://www.omdbapi.com?apikey=4dc9bf8a";
+// const API_URL = "http://www.omdbapi.com?apikey=4dc9bf8a";
 
 
 
