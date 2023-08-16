@@ -101,7 +101,7 @@ export default function SignUp(props) {
         </form>
         <button
           className="link-btn"
-          onClick={() => props.onFormSwitch("login")}
+          onClick={() => props.onFormSwitch("Register")}
         >
        <a href="/" className="link-btn">  Already have an account? Login here.</a>
         </button>
