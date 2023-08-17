@@ -45,7 +45,7 @@ export default function SignUp(props) {
     e.preventDefault();
 
     // Check if the entered email and password match the fixed values
-    if (email === "auwra@gmail.com" && pass === "123456") {
+    if (email === "awura@gmail.com" && pass === "123456") {
       console.log("Signup successful");
       // Perform any additional actions here, such as redirecting to a dashboard
     } else {

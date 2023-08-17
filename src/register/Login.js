@@ -41,7 +41,7 @@ export default function Login(props) {
     e.preventDefault();
 
     // Check if the entered email and password match the fixed values
-    if (email === "auwra@gmail.com" && pass === "123456") {
+    if (email === "awura@gmail.com" && pass === "123456") {
       console.log("Login successful");
       setLoggedIn(true);
     } else {
