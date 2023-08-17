@@ -28,7 +28,7 @@ const App = () => {
   </nav>
     <Routes>
      <Route path="/moviee" element={<Logic />}/>
-     <Route path="/Signup" element={<SignUp />} />
+     <Route path="/SignUp" element={<SignUp />} />
      <Route path="/" element={<Login />} />
     </Routes>
     </>
