@@ -56,9 +56,10 @@
     /* margin-left: 0px; */
     margin-top:20px;
     cursor: pointer;
-    color: #7439db;
+    color: gray;
     font-family: "Architects Daughter", cursive;
     font-weight: bold;
+    /* text-decoration: none; */
     border-radius: 20% 5% 20% 5%/5% 20% 25% 20%;
     /* border-radius: 50% 50% 0 50%/0 50% 50% 50%; */
   
@@ -69,7 +70,7 @@
     background: none;
     color: white;
     text-decoration: none;
-    font-family: "Architects Daughter", cursive;
+    /* font-family: "Architects Daughter", cursive; */
   }
 
   nav {
