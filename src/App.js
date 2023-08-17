@@ -21,7 +21,7 @@ const App = () => {
     <ul>
     
         <li className="nav-todo"> <Link to="/SignUp"> <HowToRegIcon from/> SignUp </Link></li>
-        <li className="nav-todo"> <Link to="/moviee"> <MovieFilterIcon/> Movie </Link> </li>
+        <li className="nav-todo"> <Link to="/"> <MovieFilterIcon/> Movie </Link> </li>
         <li className="nav-todo"> <Link to="/"> <LoginIcon/> Login </Link> </li>
 
     </ul>
