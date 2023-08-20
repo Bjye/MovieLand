@@ -62,7 +62,7 @@ const API_URL = "https://www.omdbapi.com?apikey=4dc9bf8a";
 
 const Logic = () => {
     const [movies, setmovies] = useState([]);
-    const [searchTerm, setSearchTerm] = useState('');
+    const [searchTerm, setSearchTerm] = useState('Batman');
 
     // const searchMovies = async (title) =>{
     //     const response = await fetch(`${API_URL}&s=${title}`);
@@ -84,8 +84,11 @@ const Logic = () => {
       }
     };
 
+  
+
+
  useEffect(()=>{
-    searchMovies('The Amazing spider man')  
+    searchMovies('Batman')  
  }, [])
 
     return(
@@ -98,6 +101,8 @@ const Logic = () => {
         />
 
       <img src={SearchIcon} alt="search" onClick={() => searchMovies(searchTerm)} />
+      
+
       </div>
     
        {
@@ -111,6 +116,8 @@ const Logic = () => {
                 <h2>No movies found</h2>
               </div>
             )
+         //   movies.length = 0 ? searchMovies("The Amazing spider man") :  "No movies found" ; 
+                                      
        }
         
       </div> 

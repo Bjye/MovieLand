@@ -14,9 +14,9 @@
     flex-direction: column;
   }
   
-  @media screen and (min-width: 600px) {
+  @media screen and (min-width: 400px) {
     .auth-form-container {
-      padding: 5rem;
+      padding: 4rem;
       border: 1px solid white;
       /* border-radius: 10px; */
       /* border-radius: 20% 5% 20% 5%/5% 20% 25% 20%;  */
