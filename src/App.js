@@ -8,6 +8,7 @@ import MovieFilterIcon from '@mui/icons-material/MovieFilter';
 import HowToRegIcon from '@mui/icons-material/HowToReg';
 import LoginIcon from '@mui/icons-material/Login';
 import {Route, Routes, Link} from "react-router-dom";
+import Discription from "./Discription";
 
 // const API_URL = "http://www.omdbapi.com?apikey=4dc9bf8a";
 
@@ -30,6 +31,7 @@ const App = () => {
      <Route path="/moviee" element={<Logic />}/>
      <Route path="/SignUp" element={<SignUp />} />
      <Route path="/" element={<Login />} />
+     <Route path="/discription" element={<Discription />} />
     </Routes>
     </>
     )    

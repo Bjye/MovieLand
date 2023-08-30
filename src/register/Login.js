@@ -31,6 +31,8 @@
 import React, { useState } from "react";
 import "./Style.css";
 import Logic from "./Logic";
+import Vlogin from "../video/Vlogin.mp4"
+
 
 export default function Login(props) {
   const [email, setEmail] = useState("");
@@ -55,7 +57,12 @@ export default function Login(props) {
   }
 
   return (
-    <div className="Appp">
+    <div className="Appp back-video ">
+      
+      <video autoPlay loop muted playsInline className="back-video">
+    <source src={Vlogin} />
+  </video>
+
       <div className="auth-form-container login-form">
         <h2>Login</h2>
         <form className="login-form" onSubmit={handleSubmit}>

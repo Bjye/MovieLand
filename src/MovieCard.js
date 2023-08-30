@@ -1,23 +1,41 @@
-import React from "react";
+import React, {useState} from "react";
 
 
 const MovieCard = ({ movie })=>{
+
+    // console.log(movie.Poster);
+
+    
+
     return(
-        <div className="movie">
+         <div className="movie">
+           
 
         <div>
-         <p>{movie.Year}</p>
+        <p>{movie.Year}</p>
         </div>
+      
+        
 
         <div>
-          <img src={movie.Poster !== "N/A" ? movie.Poster : "https://via.placeholder.com/400"} alt={movie.Title}/>
+      <img src={movie.Poster !== "N/A" ? movie.Poster : "https://via.placeholder.com/400"}
+           alt={movie.Title} /> 
+            
+            
         </div> 
 
         <div>
           <span>{movie.Type}</span>
+
           <h3>{movie.Title}</h3>
-        </div>     
+        </div>  
+        {/* <Discription movie={movie} />    */} 
         </div>
     )
 }
 export default MovieCard;
+
+
+
+
+

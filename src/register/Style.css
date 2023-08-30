@@ -1,4 +1,5 @@
 .Appp {
+  position: relative;
     text-align: center;
     display: flex;
     min-height: 100vh;
@@ -8,6 +9,18 @@
     background-color: #212426;
   
   }
+
+  .back-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+
+
   
   .auth-form-container, .login-form, .register-form {
     display: flex;
@@ -100,3 +113,6 @@
   nav li a:hover {
     background-color: #555;
   }
+
+
+ 

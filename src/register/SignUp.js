@@ -35,6 +35,8 @@
 
 import React, { useState } from "react";
 import "./Style.css";
+import Vlogin from "../video/Vlogin.mp4"
+
 
 export default function SignUp(props) {
   const [email, setEmail] = useState("");
@@ -55,7 +57,12 @@ export default function SignUp(props) {
   };
 
   return (
-    <div className="Appp">
+    <div className="Appp back-video">
+
+<video autoPlay loop muted playsInline className="back-video">
+    <source src={Vlogin} />
+  </video>
+
       <div className="auth-form-container login-form register-form neww">
         <h2>Register</h2>
         <form className="register-form" onSubmit={handleSubmit}>
