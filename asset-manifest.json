@@ -1,14 +1,23 @@
 {
   "files": {
-    "main.css": "/MovieLand/static/css/main.ecfc4a32.css",
-    "main.js": "/MovieLand/static/js/main.60af9d02.js",
+    "main.css": "/MovieLand/static/css/main.df6504ed.css",
+    "main.js": "/MovieLand/static/js/main.bbb58907.js",
+    "static/media/VIronMan.mp4": "/MovieLand/static/media/VIronMan.7ce9dbe5687557c7d87c.mp4",
+    "static/media/Vlogin.mp4": "/MovieLand/static/media/Vlogin.88a802635179cf509a80.mp4",
+    "static/media/VBlacklist.mp4": "/MovieLand/static/media/VBlacklist.a8b666d70a6ab9b2577a.mp4",
+    "static/media/VSALT.mp4": "/MovieLand/static/media/VSALT.2115a2c402a0ba307a85.mp4",
+    "static/media/Batman.mp4": "/MovieLand/static/media/Batman.5be1a28b8b953aab092e.mp4",
+    "static/media/Salt_poster.jpg": "/MovieLand/static/media/Salt_poster.546b6875e3d61fba622b.jpg",
+    "static/media/blacklist.webp": "/MovieLand/static/media/blacklist.a9cadaea344f128ca910.webp",
+    "static/media/ironn.webp": "/MovieLand/static/media/ironn.526e81f47e55a9eec945.webp",
+    "static/media/batmann.webp": "/MovieLand/static/media/batmann.5723bfe4e6facb779e0e.webp",
     "index.html": "/MovieLand/index.html",
     "static/media/search.svg": "/MovieLand/static/media/search.b416605642fcb3f2447edc96c1a80e05.svg",
-    "main.ecfc4a32.css.map": "/MovieLand/static/css/main.ecfc4a32.css.map",
-    "main.60af9d02.js.map": "/MovieLand/static/js/main.60af9d02.js.map"
+    "main.df6504ed.css.map": "/MovieLand/static/css/main.df6504ed.css.map",
+    "main.bbb58907.js.map": "/MovieLand/static/js/main.bbb58907.js.map"
   },
   "entrypoints": [
-    "static/css/main.ecfc4a32.css",
-    "static/js/main.60af9d02.js"
+    "static/css/main.df6504ed.css",
+    "static/js/main.bbb58907.js"
   ]
 }
