@@ -11,7 +11,7 @@ const Discription = () => {
 
    return (
     <div>
-    <h1>comming soon.....</h1>
+    <h1>coming soon.....</h1>
          
      <div className="box-container">
      
