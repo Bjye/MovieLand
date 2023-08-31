@@ -199,7 +199,7 @@ h1 {
   }
 
   .search {
-    padding: 1rem 2.75rem;
+    padding: 0.8rem 2.75rem;
     width: 100%;
   }
 
@@ -262,7 +262,7 @@ h1 {
     color:yellow ;
     text-decoration: none;
     border-radius: 20% 5% 20% 5%/5% 20% 25% 20%; 
-    margin-left: 28px;
+    margin-left: 20px;
     font-weight: bold;
     transform: scale(1.06, 1.06);
   }
