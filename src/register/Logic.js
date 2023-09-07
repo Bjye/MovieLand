@@ -11,6 +11,7 @@ const API_URL = "https://www.omdbapi.com?apikey=4dc9bf8a";
 const Logic = () => {
     const [movies, setmovies] = useState([]);
     const [searchTerm, setSearchTerm] = useState('Batman');
+    const [loading, setLoading] = useState(false);
 
   
 
@@ -23,6 +24,8 @@ const Logic = () => {
 
     const searchMovies = async (title) => {
       try {
+        setLoading(true);
+
         const response = await fetch(`${API_URL}&s=${title}`);
         if (!response.ok) {
           throw new Error("Failed to fetch movies");
@@ -32,6 +35,8 @@ const Logic = () => {
       } catch (error) {
         console.error(error);
         // Perform error handling, such as displaying an error message to the user
+      } finally {
+        setLoading(false); // Set loading to false after the search is complete
       }
     };
 
@@ -61,10 +66,11 @@ const Logic = () => {
         </Link>     
       
 
-      </div>  
-      {
-        movies.length > 0 
-          ? ( <div className="container">
+      </div> 
+      <div><h2 className="movieRes">"..{searchTerm}.." movie Results</h2></div> 
+      {loading ? (<div className="loading-spinner"></div>
+      ) :    movies.length > 0 
+          ? ( <div className="container"> 
                 {movies.map((movie) => (<MovieCard movie = {movie}/>)) }
             </div>  
             ) :
@@ -76,6 +82,7 @@ const Logic = () => {
          //   movies.length = 0 ? searchMovies("The Amazing spider man") :  "No movies found" ; 
                                       
        }
+       
       </div> 
       
     );
