@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/MovieLand/static/css/main.4c4cae4e.css",
-    "main.js": "/MovieLand/static/js/main.bbb58907.js",
+    "main.css": "/MovieLand/static/css/main.14f58536.css",
+    "main.js": "/MovieLand/static/js/main.bc35f394.js",
     "static/media/VIronMan.mp4": "/MovieLand/static/media/VIronMan.7ce9dbe5687557c7d87c.mp4",
     "static/media/Vlogin.mp4": "/MovieLand/static/media/Vlogin.88a802635179cf509a80.mp4",
     "static/media/VBlacklist.mp4": "/MovieLand/static/media/VBlacklist.a8b666d70a6ab9b2577a.mp4",
@@ -13,11 +13,11 @@
     "static/media/batmann.webp": "/MovieLand/static/media/batmann.5723bfe4e6facb779e0e.webp",
     "index.html": "/MovieLand/index.html",
     "static/media/search.svg": "/MovieLand/static/media/search.b416605642fcb3f2447edc96c1a80e05.svg",
-    "main.4c4cae4e.css.map": "/MovieLand/static/css/main.4c4cae4e.css.map",
-    "main.bbb58907.js.map": "/MovieLand/static/js/main.bbb58907.js.map"
+    "main.14f58536.css.map": "/MovieLand/static/css/main.14f58536.css.map",
+    "main.bc35f394.js.map": "/MovieLand/static/js/main.bc35f394.js.map"
   },
   "entrypoints": [
-    "static/css/main.4c4cae4e.css",
-    "static/js/main.bbb58907.js"
+    "static/css/main.14f58536.css",
+    "static/js/main.bc35f394.js"
   ]
 }
