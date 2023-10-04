@@ -1,0 +1,490 @@
+.container{
+    width: 1310px;
+    height:594.4px;
+    background-color: #4E5B61;
+    margin-left:0px;
+    /* margin-top:15px; */
+    
+    padding-left:40px;
+}
+
+/* .background{
+  width: 800px;
+  height: 600px;
+  color: #333;
+} */
+
+.div1{
+    background-color: #1B1618;
+    width: 736px;
+    height: 532px;
+    margin-left: 12rem;
+    margin-bottom:0px;
+    border-radius:20px;
+    /* position:relative; */
+}
+.div2{
+    background-color: #8BF1F3;
+    width:480px;
+    height: 532px;
+    margin-top: -24.1rem;
+    margin-left: 16rem;
+    border-radius: 20px;
+    /* margin-top: 1rem; */
+    border-radius:23px 22px 22px 23px; 
+    display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;   
+}
+.Form{
+    margin-left: 1rem;
+   
+}
+.accTitle{
+    font-family:"Inter";
+    font-weight: 700;
+    padding-right:60px;
+    padding-top: 4.5rem;
+    margin-left:57px;
+    margin-bottom: 30px;
+}
+.Fname{
+    width: 162px;
+    height:32px;
+    border-radius:8px;
+    /* color:grey; */
+    border-width: 1px;
+  border-style: solid;
+  border-color: #052020;
+}
+#LName{
+    margin-right:10px;
+}
+.Lname{
+  margin-right: -10px;
+  /* margin-left:4px; */
+  margin-bottom: 20px;
+  /* padding-left: 8px; */
+  padding-right: -20px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #052020;
+  /* border-top-color: rgb(233, 227, 227); */
+}
+.Email{
+  border-width: 1px;
+  border-style: solid;
+  border-color: #052020;
+}
+  
+.Gender{
+margin-right: 7px;
+padding-right: -50px;
+margin-bottom: 20px;
+margin-left:-10px;
+border-width: 1px;
+border-style: solid;
+border-color: #052020;
+}
+.Password{
+    width:363px;
+    height: 32px;
+    margin-top: 10px;
+    /* margin-left: -1px; */
+    padding-left: 5px;
+    padding-left: 221px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #052020;
+}
+
+.ImageContainer{
+    transform: translateX(-10%) translateY(60%);
+    display: flex;
+    justify-content: center;
+    /* align-items: flex-end; */
+    margin-bottom: 1rem;
+    margin-right:14rem;
+    padding-bottom: 8.13rem;
+    
+}
+.picture{
+    width:240px;
+    height: 240px; 
+}
+
+.inputContainer {
+    font-family:"Inter";
+    font-weight:500;
+    position: relative;
+    display: inline;
+    padding:11px;
+    padding-left: 60px;
+  }
+  
+  .inputContainer input {
+    width: 152px;
+    height: 32px;
+    /* padding: 5px; */
+    position: relative;
+    border-radius: 6px;
+    box-shadow: 0 -1px 0 22px #8BF1F3 inset; /* Change 'red' to the desired color */
+  outline: none;
+  }
+
+  
+  .inputContainer label  {
+    position: absolute;
+    top: 0;
+    left:0;
+    padding-left: 67px;
+    color: #999;
+    /* pointer-events: none;
+    transition: 0.2s; */
+  }
+
+  .inputContainer input:focus + label,
+  .inputContainer input:valid + label {
+    top: 0;
+    left: 5px;
+    font-size: 15px;
+    color: #a88181;
+  }
+.button1{
+  font-family:'Inter';
+  font-weight:500;
+  width:376px;
+  height:33px;
+  margin-top: 25px;
+  margin-left: 62px;
+  border-radius: 4px;
+  background-color:#C49650;
+  color:#fff;
+  border-style:none;
+}
+.Stext{
+  font-family:'Inter';
+  font-weight:500;
+  font-size: 13px;
+  margin-left: 69px;
+  color:grey;
+}
+.login{
+  color:blue;
+}
+.OrContainer{
+  display: flex;
+  align-items: center;
+  /* margin-top: 10px; */
+}
+.line1 {
+  flex-grow: 1;
+  background-color: grey;
+  height: 0.6px;
+  margin: 0 25px;
+}
+
+.Ortext {
+  color: grey;
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 13px;
+}
+.TwoButtons{
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 13px;
+margin-left: 65px;
+
+
+
+}
+.buttonOne{
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 11px;
+  padding:8px;
+  padding-left: 23px;
+  color:grey;
+  border-radius: 6px;
+  align-items: center;
+  border-width: 1.5px;
+border-style: solid;
+border-color: #052020;
+
+  
+}
+.buttonTwo{
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 11px;
+  margin-left: 25px;
+  padding:8px;
+  color:grey;
+  padding-left: 23px;
+  border-radius: 6px;
+  border-width: 1.5px;
+  border-style: solid;
+  border-color: #052020;
+}  
+.imagetwo{
+padding-right: 10px;
+width:17px;
+height: 17px;
+align-items: center;
+}
+.imagethree{
+  padding-right: 10px; 
+}
+.LogoContainer{
+  position: absolute;
+  top: 65px;
+  left: 10;
+  
+}
+.logo {
+  width: 40px; /* Adjust the width as per your logo size */
+  height: 40px; /* Adjust the height as per your logo size */
+  padding-left: 5px;
+  padding-top: 0px;
+}
+.LogoText{
+  font-family: "Syne";
+  font-weight: 700;
+  font-size: 24px; 
+  width:280px;
+  letter-spacing: 1px;
+  color:#fff;
+  margin-top: 15px;
+  margin-left:15px;
+}
+/* Login */
+.accTitle2{
+  font-family:"Inter";
+  font-weight: 700;
+  padding-right:60px;
+  padding-top: 4.5rem;
+  margin-left:12rem;
+  margin-bottom: 30px;
+}
+
+/* .inputContainer label .labelTwo {
+  position: absolute;
+  top: 0;
+  left:0;
+  padding-left: 65px;
+  color: #999; 
+} */
+.labelTwo{
+  margin-left:40px;
+}
+.labelTwoEmail{
+  margin-left: -20px;
+}
+.Email2{
+  margin-top: 10px;
+  margin-left: -20px;
+  padding-left: 120px;
+  padding-right: 22px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #052020;
+}
+.Password2{
+   /* width: 343px; 
+  height: 32px;  */
+  margin-top: 20px;
+  margin-left: 40px;
+  /* padding-left: 5px; */
+  padding-left: 141px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #052020;
+}
+.button2{
+  font-family:'Inter';
+  font-weight:500;
+  width:297px;
+  height:33px;
+  margin-top: 20px;
+  margin-left: 6.3rem;
+  border-radius: 4px;
+  background-color:#C49650;
+  color:#fff;
+  border-style:none;
+}
+
+.LogoContainer2{
+  position: absolute;
+  top:65px;
+  left: 10;
+ /* margin-left: 15px; */
+  
+}
+.logo2{
+  width: 40px; 
+  height: 40px; 
+  padding-left: 5px;
+  padding-top: 0px;
+}
+.LogoTextTwo{
+  font-family: "Syne";
+  font-weight: 700;
+  font-size: 24px; 
+  width:280px;
+  letter-spacing: 1px;
+  color:#fff;
+  margin-top: 15px;
+  margin-left:15px;
+}
+.TwoButtons {
+  display: flex;
+  align-items: center;
+}
+
+.buttonOne,
+.buttonTwo {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.buttonOne img,
+.buttonTwo img {
+  margin-right: 3px;
+  width: 17px;
+  height: 17px;
+}
+
+.TwoButtons2{
+  display: flex;
+  align-items: center;
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 13px;
+margin-left: 65px;
+
+
+.buttonOne1,
+.buttonTwo2 {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  margin-bottom: 10px;
+  margin-left:20px;
+}
+.buttonOne1 img,
+.buttonTwo2 img {
+  margin-right: -8px;
+  width: 17px;
+  height: 17px;
+}
+
+}
+.buttonOne1{
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 11px;
+  padding:8px;
+  padding-left: 10px;
+  color:grey;
+  border-radius: 6px;
+  align-items: center;
+  border-width: 1.5px;
+border-style: solid;
+border-color: #052020;
+  
+}
+.buttonTwo2{
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 11px;
+  margin-left: 10px;
+  padding:8px;
+  color:grey;
+  padding-left: 10px;
+  border-radius: 6px;
+  border-width: 1.5px;
+  border-style: solid;
+  border-color: #052020;
+}
+
+.OrContainer2{
+  display: flex;
+  align-items: center;
+  /* margin-top: 10px; */
+}
+.line2 {
+  flex-grow: 1;
+  background-color: grey;
+  height: 0.6px;
+  margin: 0px 30px;
+  
+}
+.Ortext2 {
+  color: grey;
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 13px;
+  
+}
+.Ltext{
+  font-family:'Inter';
+  font-weight:500;
+  font-size: 13px;
+  margin-left: 100px;
+  color:grey;
+}
+.signup{
+  color:blue;
+  /* font-weight:bold; */
+}
+
+
+nav {
+  background-color: #333;
+  font-size: 18px;
+  /* margin-top: 0px; */
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  margin-bottom:0px;
+  padding: 10px;
+}
+
+nav li {
+  list-style: none;
+}
+
+nav li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  /* border-radius: 5px; */
+  transition: background-color 0.3s ease;
+}
+
+nav li a:hover {
+  background-color: #555;
+}
+
+.button1:hover {
+  color:#4E5B61;
+  background-color:#38b9bb;
+}
+.button2:hover{
+ color:#4E5B61;
+  background-color:#38b9bb;
+}
+.buttonOne:hover,
+.buttonTwo:hover,
+.buttonOne1:hover,
+.buttonTwo2:hover {
+  color: black;
+  background-color: lightblue;
+}
